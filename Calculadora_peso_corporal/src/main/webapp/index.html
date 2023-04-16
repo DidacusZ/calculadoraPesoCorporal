@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cálculo Peso Corporal</title>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>Báscula mágica</h1>
+    <br><br>
+    
+    <!-- Formulario pidiendo los datos necesarios: -->
+    <form name="formularioEntrada">
+    
+       <p>Edad:
+    	<input type="text" size="50" name="edad"  /> 
+       </p>
+        
+       <p>Altura (cm):
+        <input type="text" size="50" name="altura"  />
+       </p>
+
+       <p>Sexo: Hombre-Mujer:
+        <input type="text" size="50" name="sexo"  />
+       </p>
+      
+        <input type="button" name="GuardarDatos" value="Guardar Datos" onClick="guardarDatos()"/>
+        <!-- name no puede tener el mismo nombre que el metodo por que sino da error -->
+
+    </form>
+</body>
+</html>
